@@ -12,10 +12,11 @@ The interactive dashboard can be found here.
 ### The Card Visuals
 The card top visual shows the vessels actively working at the quay, with each card representing a berth, distinguished by a consistent accent color applied consistently throughout the dashboard.
 <p align="left"><img src="https://github.com/dmokafor/Vessel_Operations_Performance_Dashboard/blob/main/Screenshots/Dashboard_Card_Visual.png" alt="Dashboard Card Visual"></p>
+
 Each card displays:
 - Vessel information: berth, name of the vessel, service, and shipping line.
 - The most critical operational KPI: Port Hours Saved (PHS).
-- Other KPIs: Crane Moves Per Hour (CMPH) and Total Moves (Sum of executed and balance), Crane Intensity (CI), and Percent of Completion, Required Time of Departure (RTD) to meet PHS target.
+- Other KPIs: Crane Moves Per Hour (CMPH) and Total Moves (Sum of executed and balance), Crane Intensity (CI), Percent of Completion, and Required Time of Departure (RTD) to meet PHS target.
 
 Additionally, each card functions as a navigation button, allowing users to access Vessel Operations Situation Report (SitRep) below:
 <p align="left"><img src="https://github.com/dmokafor/Vessel_Operations_Performance_Dashboard/blob/main/Screenshots/Vessel_Operations_Performance_Dashboard_2.png" alt="SitRep"></p>
