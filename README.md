@@ -4,11 +4,18 @@ This dashboard provides real-time updates on on-going vessel operations and cran
 
 This dashboard is designed for display on a TV wall in the control room.
 
-## Dashboard Features
-Below is the overview page of the Power BI dashboard. The interactive dashboard can be found here.
-![Image Alt](https://github.com/dmokafor/Vessel_Operations_Performance_Dashboard/blob/main/Vessel_Operations_Performance_Dashboard.png?raw=true) 
-- The card visuals represent the three (3) berths of the Terminal. Each berth can be identified by the accent color of each card which is consistently applied throughout the dashboard.
-- Each card also serves as navigation buttons to see more details about the vessel working.
-  [Insert visual card]
-- A major KPI for the Terminal is the Port Hours Saved (PHS).
-- Other KPIs include: Estimated Time of Completion (ETC), Estimated Rime of Departure (ETD), Required Time of Departure (RTD) to meet PHS target.
+## Dashboard Walkthrough
+Below is the overview page of the Power BI dashboard which shows the performance of vessels currently working at berth. 
+The interactive dashboard can be found here.
+
+![Dashboard_Overview](https://github.com/dmokafor/Vessel_Operations_Performance_Dashboard/blob/main/Vessel_Operations_Performance_Dashboard.png?raw=true) 
+### The Card Visual
+The card visual shows the vessels actively working at the quay, with each card representing a berth, distinguished by a consistent accent color applied consistently throughout the dashboard.
+
+Each card displays:
+- Vessel information: berth, name of the vessel, service, and shipping line.
+- Critical KPIs: Port Hours Saved (PHS), Required Time of Departure (RTD) to meet PHS target.
+- Other KPIs: Crane Moves Per Hour (CMPH) and Total Moves (Sum of executed and balance), Crane Intensity (CI), and Percent of Completion
+Additionally, each card functions as a navigation button, allowing users to access more detailed vessel information.
+
+![Dashboard_Card_Visual](https://github.com/dmokafor/Vessel_Operations_Performance_Dashboard/blob/main/Dashboard_Card_Visual.png) 
