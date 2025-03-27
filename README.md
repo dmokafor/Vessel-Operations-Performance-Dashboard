@@ -9,13 +9,26 @@ Below is the overview page of the Power BI dashboard which shows the performance
 The interactive dashboard can be found here.
 
 ![Dashboard_Overview](https://github.com/dmokafor/Vessel_Operations_Performance_Dashboard/blob/main/Vessel_Operations_Performance_Dashboard.png?raw=true) 
-### The Card Visual
-The card visual shows the vessels actively working at the quay, with each card representing a berth, distinguished by a consistent accent color applied consistently throughout the dashboard.
+### The Card Visuals
+The card top visual shows the vessels actively working at the quay, with each card representing a berth, distinguished by a consistent accent color applied consistently throughout the dashboard.
 
 Each card displays:
 - Vessel information: berth, name of the vessel, service, and shipping line.
-- Critical KPIs: Port Hours Saved (PHS), Required Time of Departure (RTD) to meet PHS target.
-- Other KPIs: Crane Moves Per Hour (CMPH) and Total Moves (Sum of executed and balance), Crane Intensity (CI), and Percent of Completion
+- The most critical operational KPI: Port Hours Saved (PHS).
+- Other KPIs: Crane Moves Per Hour (CMPH) and Total Moves (Sum of executed and balance), Crane Intensity (CI), and Percent of Completion, Required Time of Departure (RTD) to meet PHS target.
 Additionally, each card functions as a navigation button, allowing users to access more detailed vessel information.
 
-![Dashboard_Card_Visual](https://github.com/dmokafor/Vessel_Operations_Performance_Dashboard/blob/main/Dashboard_Card_Visual.png) 
+<p align="left">
+  <img src="https://github.com/dmokafor/Vessel_Operations_Performance_Dashboard/blob/main/Dashboard_Card_Visual.png" alt="Dashboard Card Visual">
+</p>
+
+The most recent vessel completed from each berth is show in the visual below:
+
+<p align="left">
+  <img src="https://github.com/dmokafor/Vessel_Operations_Performance_Dashboard/blob/main/Dashboard_Card_Visual_2.png" alt="Dashboard Card Visual">
+</p>
+
+## The Bar Charts
+
+
+
