@@ -7,17 +7,18 @@ This dashboard is designed for display on a TV wall in the control room.
 ## Dashboard Walkthrough
 Below is the overview page of the Power BI dashboard which shows the performance of vessels currently working at berth. 
 The interactive dashboard can be found here.
+<p align="left"><img src="https://github.com/dmokafor/Vessel_Operations_Performance_Dashboard/blob/main/Screenshots/Vessel_Operations_Performance_Dashboard.png" alt="Overview Page"></p>
 
-![Dashboard_Overview](https://github.com/dmokafor/Vessel_Operations_Performance_Dashboard/blob/main/Screenshots/Vessel_Operations_Performance_Dashboard.png) 
 ### The Card Visuals
 The card top visual shows the vessels actively working at the quay, with each card representing a berth, distinguished by a consistent accent color applied consistently throughout the dashboard.
-
+<p align="left"><img src="https://github.com/dmokafor/Vessel_Operations_Performance_Dashboard/blob/main/Screenshots/Dashboard_Card_Visual.png" alt="Dashboard Card Visual"></p>
 Each card displays:
 - Vessel information: berth, name of the vessel, service, and shipping line.
 - The most critical operational KPI: Port Hours Saved (PHS).
 - Other KPIs: Crane Moves Per Hour (CMPH) and Total Moves (Sum of executed and balance), Crane Intensity (CI), and Percent of Completion, Required Time of Departure (RTD) to meet PHS target.
-Additionally, each card functions as a navigation button, allowing users to access more detailed vessel information.
-<p align="left"><img src="https://github.com/dmokafor/Vessel_Operations_Performance_Dashboard/blob/main/Screenshots/Dashboard_Card_Visual.png" alt="Dashboard Card Visual"></p>
+
+Additionally, each card functions as a navigation button, allowing users to access Vessel Operations Situation Report (SitRep) below:
+<p align="left"><img src="https://github.com/dmokafor/Vessel_Operations_Performance_Dashboard/blob/main/Screenshots/Vessel_Operations_Performance_Dashboard_2.png" alt="SitRep"></p>
 
 The most recent vessel completed from each berth is show in the visual below:
 <p align="left"><img src="https://github.com/dmokafor/Vessel_Operations_Performance_Dashboard/blob/main/Screenshots/Dashboard_Card_Visual_2.png" alt="Dashboard Card Visual"></p>
@@ -29,4 +30,4 @@ The bar length represents the Estimated Port Stay (i.e time duration between the
 
 The visual below shows the crane working in each berth with their corresponding Estimated Time Of Completion (ETC) and Crane Moves Per Hour (CMPH)
 The bar length represents the Estimated Crane Hours (i.e time duration between the First Container Lift and Last Container Lift.
-<p align="left"><img src="https://github.com/dmokafor/Vessel_Operations_Performance_Dashboard/blob/main/Screenshots/Dashboard_Bar_Chart_2.png"></p>
+<p align="left"><img src="https://github.com/dmokafor/Vessel_Operations_Performance_Dashboard/blob/main/Screenshots/Dashboard_Bar_Chart_2.png" alt="Dashboard Bar Chart"></p>
