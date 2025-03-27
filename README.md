@@ -17,18 +17,17 @@ Each card displays:
 - The most critical operational KPI: Port Hours Saved (PHS).
 - Other KPIs: Crane Moves Per Hour (CMPH) and Total Moves (Sum of executed and balance), Crane Intensity (CI), and Percent of Completion, Required Time of Departure (RTD) to meet PHS target.
 Additionally, each card functions as a navigation button, allowing users to access more detailed vessel information.
-
-<p align="left">
-  <img src="https://github.com/dmokafor/Vessel_Operations_Performance_Dashboard/blob/main/Dashboard_Card_Visual.png" alt="Dashboard Card Visual">
-</p>
+<p align="left"><img src="https://github.com/dmokafor/Vessel_Operations_Performance_Dashboard/blob/main/Dashboard_Card_Visual.png" alt="Dashboard Card Visual"></p>
 
 The most recent vessel completed from each berth is show in the visual below:
+<p align="left"><img src="https://github.com/dmokafor/Vessel_Operations_Performance_Dashboard/blob/main/Dashboard_Card_Visual_2.png" alt="Dashboard Card Visual"></p>
 
-<p align="left">
-  <img src="https://github.com/dmokafor/Vessel_Operations_Performance_Dashboard/blob/main/Dashboard_Card_Visual_2.png" alt="Dashboard Card Visual">
-</p>
+### The Bar Charts
+The visual below shows the timeline of vessels actively working at the quay with their corresponding Estimated Time of Departure (ETD).
+The bar length represents the Port Stay (i.e time duration between the Actual Time of Arrival (ATA) and Estimated Time of Departure (ETD).
+<p align="left"><img src="https://github.com/dmokafor/Vessel_Operations_Performance_Dashboard/blob/main/Dashboard_Bar%20Chart.png" alt="Dashboard Bar Chart"></p>
 
-## The Bar Charts
+
 
 
 
