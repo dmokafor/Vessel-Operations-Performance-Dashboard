@@ -23,11 +23,10 @@ The most recent vessel completed from each berth is show in the visual below:
 <p align="left"><img src="https://github.com/dmokafor/Vessel_Operations_Performance_Dashboard/blob/main/Screenshots/Dashboard_Card_Visual_2.png" alt="Dashboard Card Visual"></p>
 
 ### The Bar Charts
-The visual below shows the timeline of vessels actively working at the quay with their corresponding Estimated Time of Departure (ETD).
-The bar length represents the Port Stay (i.e time duration between the Actual Time of Arrival (ATA) and Estimated Time of Departure (ETD).
-<p align="left"><img src="https://github.com/dmokafor/Vessel_Operations_Performance_Dashboard/blob/main/Screenshots/Dashboard_Bar%20Chart.png" alt="Dashboard Bar Chart"></p>
+The visual below shows the timeline of vessels actively working at the quay with their corresponding Estimated Time of Departure (ETD) and Berth Moves Per Hour (BMPH).
+The bar length represents the Estimated Port Stay (i.e time duration between the Actual Time of Arrival (ATA) and Estimated Time of Departure (ETD).
+<p align="left"><img src="https://github.com/dmokafor/Vessel_Operations_Performance_Dashboard/blob/main/Screenshots/Dashboard_Bar_Chart.png" alt="Dashboard Bar Chart"></p>
 
-
-
-
-
+The visual below shows the crane working in each berth with their corresponding Estimated Time Of Completion (ETC) and Crane Moves Per Hour (CMPH)
+The bar length represents the Estimated Crane Hours (i.e time duration between the First Container Lift and Last Container Lift.
+<p align="left"><img src="https://github.com/dmokafor/Vessel_Operations_Performance_Dashboard/blob/main/Screenshots/Dashboard_Bar_Chart_2.png"></p>
