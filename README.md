@@ -34,5 +34,5 @@ The bar length represents the Estimated Crane Hours (i.e time duration between t
 <p align="left"><img src="https://github.com/dmokafor/Vessel_Operations_Performance_Dashboard/blob/main/Screenshots/Dashboard_Bar_Chart_2.png" alt="Dashboard Bar Chart"></p>
 
 ## Data Model
-The database structure and entity relationships are visually represented in the diagram below,
+All tables have been aggregated to the highest level of granularity required for the visuals. The relationships between the tables are visually represented in the diagram below:
 <p align="left"><img src="https://github.com/dmokafor/Vessel_Operations_Performance_Dashboard/blob/main/Screenshots/Data%20Model.png" alt="Data Model"></p>
