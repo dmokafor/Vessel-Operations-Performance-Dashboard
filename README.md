@@ -32,3 +32,7 @@ The bar length represents the Estimated Port Stay (i.e time duration between the
 The visual below shows the crane working in each berth with their corresponding Estimated Time Of Completion (ETC) and Crane Moves Per Hour (CMPH)
 The bar length represents the Estimated Crane Hours (i.e time duration between the First Container Lift and Last Container Lift.
 <p align="left"><img src="https://github.com/dmokafor/Vessel_Operations_Performance_Dashboard/blob/main/Screenshots/Dashboard_Bar_Chart_2.png" alt="Dashboard Bar Chart"></p>
+
+## Data Model
+The database structure and entity relationships are visually represented in the diagram below,
+<p align="left"><img src="https://github.com/dmokafor/Vessel_Operations_Performance_Dashboard/blob/main/Screenshots/Data%20Model.png" alt="Data Model"></p>
