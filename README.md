@@ -34,6 +34,29 @@ The visual below shows the crane working in each berth with their corresponding 
 The bar length represents the Estimated Crane Hours (i.e time duration between the First Container Lift and Last Container Lift.
 <p align="left"><img src="https://github.com/dmokafor/Vessel_Operations_Performance_Dashboard/blob/main/Screenshots/Dashboard_Bar_Chart_2.png" alt="Dashboard Bar Chart"></p>
 
+## Data Preparation Process
+1.	Data Extraction with SQL: 
+    - Write SQL queries to extract raw data from source databases.
+    - Perform transformations in SQL.
+
+The following SQL queries were key takeaways from this project.
+```sql
+SELECT
+  A.column1, A.column2, B.column3
+FROM TableA AS A
+JOIN TableB AS B ON A.key_column = B.key_column
+WHERE A.condition_column = 'SomeCondition'
+  AND A.id IN (
+      -- Retrieve the the most recent vessel in each berth and phase
+      SELECT TOP 1 WITH TIES A.id
+      FROM TableA AS A
+      JOIN TableC AS C ON A.join_key = C.join_key
+      WHERE A.phase IN ('40WORKING', '50COMPLETE', '60DEPARTED')
+      ORDER BY ROW_NUMBER() OVER (PARTITION BY C.berth, A.phase ORDER BY A.timestamp_column DESC)    
+  );
+```
+2.	Power Query Loading & Transformation
+3.	Data Modelling
+
 ## Data Model
-All tables have been aggregated to the highest level of granularity required for the visuals. The relationships between the tables are visually represented in the diagram below:
 <p align="left"><img src="https://github.com/dmokafor/Vessel_Operations_Performance_Dashboard/blob/main/Screenshots/Data%20Model.png" alt="Data Model"></p>
