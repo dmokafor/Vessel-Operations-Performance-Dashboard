@@ -18,7 +18,8 @@ Each card displays:
 - The most critical operational KPI: Port Hours Saved (PHS).
 - Other KPIs: Crane Moves Per Hour (CMPH) and Total Moves (Sum of executed and balance), Crane Intensity (CI), Percent of Completion, and Required Time of Departure (RTD) to meet PHS target.
 
-Additionally, each card functions as a navigation button, allowing users to access Vessel Operations Situation Report (SitRep) below:
+Additionally, each card functions as a navigation button, directing users the Vessel Operations Situation Report (SitRep) below.
+This SitRep is used to keep shipping line agents and stakeholders informed on real-time vessel operations. Its goal is to facilitate seamless collaboration, ensuring timely vessel departures and efficient sailing operations.
 <p align="left"><img src="https://github.com/dmokafor/Vessel_Operations_Performance_Dashboard/blob/main/Screenshots/Vessel_Operations_Performance_Dashboard_2.png" alt="SitRep"></p>
 
 The most recent vessel completed from each berth is show in the visual below:
